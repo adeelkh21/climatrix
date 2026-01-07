@@ -2,9 +2,6 @@
 ### Interactive Climate Change Dashboard
 **Live Dashboard:** [Launch](https://climatrix-phi.vercel.app/)
 
-**Data Visualization • Semester Project 2025**  
-**Course Instructor:** Dr. Farah Saeed
-
 **Team Members:**
 - Muhammad Adeel 
 - Nauman Ali Murad 
