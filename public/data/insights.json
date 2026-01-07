@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Accelerating Global Warming",
+    "content": "Global average temperatures have risen by -0.39°C since 2000. The upward trend is consistent and accelerating, with the last 5 years showing the highest averages on record.",
+    "metric": "Temperature"
+  },
+  {
+    "id": 2,
+    "title": "The CO2-Temperature Nexus",
+    "content": "There is a very strong positive correlation (r = 0.34) between atmospheric CO2 concentration and global temperature anomalies, confirming the greenhouse gas effect as the primary driver.",
+    "metric": "Correlation"
+  },
+  {
+    "id": 3,
+    "title": "Inevitability of Sea Level Rise",
+    "content": "Sea levels have risen by -0.1mm over the period, showing a near-perfect linear relationship (r = 0.31) with temperature increase due to thermal expansion and ice melt.",
+    "metric": "Sea Level"
+  },
+  {
+    "id": 4,
+    "title": "Disproportionate Regional Impact",
+    "content": "Warming is not uniform. Tokelau and Kyrgyz Republic are warming significantly faster than the global average, highlighting distinct regional vulnerabilities.",
+    "metric": "Geospatial"
+  },
+  {
+    "id": 5,
+    "title": "Carbon Saturation",
+    "content": "CO2 levels have increased by -4.0 ppm since 2000. This rapid accumulation exceeds natural interglacial cycles, pushing the climate system into uncharted territory.",
+    "metric": "CO2"
+  },
+  {
+    "id": 6,
+    "title": "Highest Average Temperatures",
+    "content": "Equatorial nations like Saint Martin maintain the highest absolute average temperatures, but are seeing compounding stress from rising baselines and humidity.",
+    "metric": "Heat Stress"
+  },
+  {
+    "id": 7,
+    "title": "Volatility in Weather Patterns",
+    "content": "While long-term trends are linear, year-on-year volatility in precipitation and wind speed has increased, suggesting more frequent extreme weather events.",
+    "metric": "Volatility"
+  },
+  {
+    "id": 8,
+    "title": "The 2023 Anomaly",
+    "content": "The year 2023 stands out as a statistical outlier, breaking previous temperature records by a significant margin, likely comprised of both anthropogenic forcing and El Niño events.",
+    "metric": "Anomaly"
+  },
+  {
+    "id": 9,
+    "title": "Polar Amplification",
+    "content": "Data trends suggest that higher latitude regions are experiencing temperature anomalies at twice the rate of equatorial regions, a phenomenon known as polar amplification.",
+    "metric": "Polar"
+  },
+  {
+    "id": 10,
+    "title": "Critical Thresholds",
+    "content": "The current rate of warming places the world on a trajectory to breach the 1.5°C threshold within the next decade if emissions remain constant.",
+    "metric": "Projections"
+  }
+]

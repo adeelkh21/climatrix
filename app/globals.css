@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --font-geist-sans: 'Arial', sans-serif;
+  --font-geist-mono: 'Courier New', monospace;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-geist-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Custom Grid Background */
+.bg-grid {
+  background-size: 24px 24px;
+  background-image:
+    linear-gradient(to right, rgba(128, 128, 128, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(128, 128, 128, 0.1) 1px, transparent 1px);
+}
+
+/* Custom Range Slider Styling */
+input[type=range] {
+  height: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+  appearance: none;
+  cursor: pointer;
+  @apply bg-white/20;
+  /* Re-adding tailwind directives for safety if postcss parses them */
+}
+
+/* CSS fallback is better, let's stick to pure CSS for the slider to avoid parsing issues */
+input[type=range] {
+  height: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  height: 16px;
+  width: 16px;
+  background: #3b82f6;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  transition: all 0.15s ease-in-out;
+}
+
+input[type=range]::-webkit-slider-thumb:hover {
+  background: #60a5fa;
+  transform: scale(1.1);
+}
